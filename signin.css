@@ -1,0 +1,142 @@
+.cb-card {
+max-width: 420px;
+margin: 22px auto;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+color: #333;    
+}    
+.cb-logo {
+display: block;
+margin: 8px auto 18px;
+max-width: 200px;
+height: auto;
+filter: grayscale(0.1);    
+}    
+.cb-card-inner {
+border: 1px solid #e0e0e0;
+border-radius: 10px;
+padding: 22px;
+background: #fff;
+box-shadow: 0 1px 0 rgba(0, 0, 0, 0.02);    
+}    
+.cb-title {
+margin: 0 0 6px;
+text-align: center;
+font-size: 20px;
+font-weight: 700;    
+}    
+
+.cb-sub {
+margin: 0 0 16px;
+color: #666;
+text-align: center;
+font-size: 13px;    
+}    
+.cb-row {       
+margin-bottom: 14px;
+position: relative;    
+}    
+.cb-label {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 8px;
+font-size: 13px;    
+}    
+.cb-label-left {
+display: flex;
+align-items: center;
+gap: 6px;    
+}    
+.cb-info {
+font-size: 12px;
+opacity: 0.7;    
+}    
+.cb-forgot {
+font-size: 13px;
+color: #2b6cb0;
+text-decoration: none;    
+}    
+.cb-forgot:hover {
+text-decoration: underline;    
+}    
+.cb-input {
+width: 100%;
+padding: 12px 14px;
+border-radius: 8px;
+border: 1px solid #d6d6d6;
+box-sizing: border-box;
+font-size: 14px;
+outline: none;    
+}    
+.cb-input:focus {
+border-color: #9ac0ff;
+box-shadow: 0 0 0 3px rgba(150, 200, 255, 0.12);    
+}    
+    
+.cb-password-wrap {
+position: relative;    
+}    
+.cb-password {
+padding-right: 44px;    
+}    
+.cb-eye {
+position: absolute;
+right: 8px;
+top: 50%;
+transform: translateY(-50%);
+border: 0;
+background: transparent;
+cursor: pointer;
+padding: 6px;
+border-radius: 6px;
+font-size: 14px;    
+}    
+.cb-error {
+color: #a94442;
+background: rgba(169, 68, 66, 0.05);
+padding: 10px 12px;
+border-radius: 6px;
+margin-bottom: 12px;
+font-size: 13px;    
+}    
+.cb-btn {
+display: block;
+width: 100%;
+padding: 12px;
+border-radius: 26px;
+border: 0;
+background: #222;
+color: #fff;
+font-weight: 600;
+cursor: pointer;
+font-size: 15px;
+margin-top: 6px;    
+}    
+.cb-btn:active {
+transform: translateY(1px);    
+}    .cb-passkey {
+margin-top: 12px;
+text-align: left;    
+}    
+.cb-passkey a {
+color: #333;
+text-decoration: none;
+font-size: 14px;
+opacity: 0.85;    
+}    
+.cb-arrow {
+font-size: 18px;
+vertical-align: middle;
+padding-left: 6px;    
+}    
+.cb-footer {
+text-align: center;
+margin-top: 12px;
+font-size: 14px;
+color: #555;    
+}    
+.cb-footer a {
+color: #2b6cb0;
+text-decoration: none;
+font-weight: 600;    
+}
